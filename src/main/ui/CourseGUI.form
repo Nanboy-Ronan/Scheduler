@@ -1,0 +1,1294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ui.CourseGUI">
+  <grid id="27dc6" binding="assignPanel" layout-manager="GridLayoutManager" row-count="32" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="0">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="23" y="41" width="1234" height="1013"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="d06b" class="javax.swing.JLabel" binding="courseEnter">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Enter a Course here:"/>
+        </properties>
+      </component>
+      <component id="fbaf7" class="javax.swing.JLabel" binding="courseComponentLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Choose your Course Component here"/>
+        </properties>
+      </component>
+      <component id="1857c" class="javax.swing.JLabel" binding="taLabel">
+        <constraints>
+          <grid row="7" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Enter your TA here"/>
+        </properties>
+      </component>
+      <component id="23777" class="javax.swing.JTextField" binding="taName">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="10"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="e7200" class="javax.swing.JLabel" binding="maxHourLabel">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Enter Maximum Work Hour"/>
+        </properties>
+      </component>
+      <component id="15512" class="javax.swing.JTextField" binding="maxHours">
+        <constraints>
+          <grid row="8" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="10"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="cc4b8" class="javax.swing.JLabel" binding="scheduleLabel">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Choose Schedule here"/>
+        </properties>
+      </component>
+      <component id="d5d3d" class="javax.swing.JLabel" binding="mondayLabel">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="48" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Monday"/>
+        </properties>
+      </component>
+      <component id="99a47" class="javax.swing.JLabel" binding="tuesdayLabel">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="221" height="10"/>
+            <maximum-size width="200" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Tuesday"/>
+        </properties>
+      </component>
+      <component id="8c24e" class="javax.swing.JLabel" binding="wednesdayLabel">
+        <constraints>
+          <grid row="10" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="244" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Wednesday"/>
+        </properties>
+      </component>
+      <component id="ff821" class="javax.swing.JLabel" binding="thursdayLabel">
+        <constraints>
+          <grid row="10" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="207" height="10"/>
+            <maximum-size width="200" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Thursday"/>
+        </properties>
+      </component>
+      <component id="3106" class="javax.swing.JLabel" binding="fridayLabel">
+        <constraints>
+          <grid row="10" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="35" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Friday"/>
+        </properties>
+      </component>
+      <component id="e201d" class="javax.swing.JButton" binding="addCourseButton">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Add"/>
+        </properties>
+      </component>
+      <component id="c5edb" class="javax.swing.JCheckBox" binding="monday800">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="8:00 - 8:30"/>
+        </properties>
+      </component>
+      <component id="31a40" class="javax.swing.JCheckBox" binding="monday830">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="8:30 - 9:00"/>
+        </properties>
+      </component>
+      <component id="4eb60" class="javax.swing.JCheckBox" binding="monday900">
+        <constraints>
+          <grid row="13" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="9:00 - 9:30"/>
+        </properties>
+      </component>
+      <component id="3d32" class="javax.swing.JCheckBox" binding="monday930">
+        <constraints>
+          <grid row="14" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="9:30 - 10:00"/>
+        </properties>
+      </component>
+      <component id="449c2" class="javax.swing.JCheckBox" binding="tuesday800">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="8:00 - 8:30"/>
+        </properties>
+      </component>
+      <component id="4da2" class="javax.swing.JCheckBox" binding="wednesday800">
+        <constraints>
+          <grid row="11" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="8:00 - 8:30"/>
+        </properties>
+      </component>
+      <component id="e10f5" class="javax.swing.JCheckBox" binding="thursday800">
+        <constraints>
+          <grid row="11" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="8:00 - 8:30"/>
+        </properties>
+      </component>
+      <component id="fc6ae" class="javax.swing.JCheckBox" binding="friday800">
+        <constraints>
+          <grid row="11" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="8:00 - 8:30"/>
+        </properties>
+      </component>
+      <component id="f35e" class="javax.swing.JCheckBox" binding="tuesday830">
+        <constraints>
+          <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="8:30 - 9:00"/>
+        </properties>
+      </component>
+      <component id="11040" class="javax.swing.JCheckBox" binding="wednesday830">
+        <constraints>
+          <grid row="12" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="8:30 - 9:00"/>
+        </properties>
+      </component>
+      <component id="7e4d8" class="javax.swing.JCheckBox" binding="thursday830">
+        <constraints>
+          <grid row="12" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="8:30 - 9:00"/>
+        </properties>
+      </component>
+      <component id="226d6" class="javax.swing.JCheckBox" binding="friday830">
+        <constraints>
+          <grid row="12" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="8:30 - 9:00"/>
+        </properties>
+      </component>
+      <component id="a6561" class="javax.swing.JCheckBox" binding="tuesday900">
+        <constraints>
+          <grid row="13" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="9:00 - 9:30"/>
+        </properties>
+      </component>
+      <component id="8e61b" class="javax.swing.JCheckBox" binding="wednesday900">
+        <constraints>
+          <grid row="13" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="9:00 - 9:30"/>
+        </properties>
+      </component>
+      <component id="5a3b7" class="javax.swing.JCheckBox" binding="thursday900">
+        <constraints>
+          <grid row="13" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="9:00 - 9:30"/>
+        </properties>
+      </component>
+      <component id="16e80" class="javax.swing.JCheckBox" binding="friday900">
+        <constraints>
+          <grid row="13" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="9:00 - 9:30"/>
+        </properties>
+      </component>
+      <component id="15620" class="javax.swing.JCheckBox" binding="tuesday930">
+        <constraints>
+          <grid row="14" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="9:30 - 10:00"/>
+        </properties>
+      </component>
+      <component id="8c95a" class="javax.swing.JCheckBox" binding="wednesday930">
+        <constraints>
+          <grid row="14" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="9:30 - 10:00"/>
+        </properties>
+      </component>
+      <component id="60dc2" class="javax.swing.JCheckBox" binding="thursday930">
+        <constraints>
+          <grid row="14" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="9:30 - 10:00"/>
+        </properties>
+      </component>
+      <component id="ddc33" class="javax.swing.JCheckBox" binding="friday930">
+        <constraints>
+          <grid row="14" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="9:30 - 10:00"/>
+        </properties>
+      </component>
+      <component id="68aec" class="javax.swing.JCheckBox" binding="lectureCheckBox" default-binding="true">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Lecture"/>
+        </properties>
+      </component>
+      <component id="9320a" class="javax.swing.JCheckBox" binding="tutorialCheckBox" default-binding="true">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Tutorial"/>
+        </properties>
+      </component>
+      <component id="7f2e9" class="javax.swing.JCheckBox" binding="labCheckBox" default-binding="true">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Lab"/>
+        </properties>
+      </component>
+      <component id="f4da7" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Enter section here"/>
+        </properties>
+      </component>
+      <component id="786d5" class="javax.swing.JTextField" binding="section">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="10"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="16cf3" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="TA Needed"/>
+        </properties>
+      </component>
+      <component id="17c6" class="javax.swing.JTextField" binding="numTACourseComponent">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="10"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="5efb7" class="javax.swing.JButton" binding="loadButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Load"/>
+        </properties>
+      </component>
+      <component id="14f23" class="javax.swing.JButton" binding="viewButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="View"/>
+        </properties>
+      </component>
+      <component id="76de1" class="javax.swing.JCheckBox" binding="monday1000">
+        <constraints>
+          <grid row="15" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="10:00 - 10:30"/>
+        </properties>
+      </component>
+      <component id="63973" class="javax.swing.JCheckBox" binding="monday1030">
+        <constraints>
+          <grid row="16" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="10:30 - 11:00"/>
+        </properties>
+      </component>
+      <component id="4435" class="javax.swing.JCheckBox" binding="monday1100">
+        <constraints>
+          <grid row="17" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="11:00 - 11:30"/>
+        </properties>
+      </component>
+      <component id="83da8" class="javax.swing.JCheckBox" binding="monday1130">
+        <constraints>
+          <grid row="18" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="11:30 - 12:00"/>
+        </properties>
+      </component>
+      <component id="813cf" class="javax.swing.JCheckBox" binding="tuesday1000">
+        <constraints>
+          <grid row="15" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="10:00 - 10:30"/>
+        </properties>
+      </component>
+      <component id="2f342" class="javax.swing.JCheckBox" binding="wednesday1000">
+        <constraints>
+          <grid row="15" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="10:00 - 10:30"/>
+        </properties>
+      </component>
+      <component id="d8155" class="javax.swing.JCheckBox" binding="thursday1000">
+        <constraints>
+          <grid row="15" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="10:00 - 10:30"/>
+        </properties>
+      </component>
+      <component id="48cad" class="javax.swing.JCheckBox" binding="friday1000">
+        <constraints>
+          <grid row="15" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="10:00 - 10:30"/>
+        </properties>
+      </component>
+      <component id="7d273" class="javax.swing.JCheckBox" binding="tuesday1030">
+        <constraints>
+          <grid row="16" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="10:30 - 11:00"/>
+        </properties>
+      </component>
+      <component id="9af9a" class="javax.swing.JCheckBox" binding="wednesday1030">
+        <constraints>
+          <grid row="16" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="10:30 - 11:00"/>
+        </properties>
+      </component>
+      <component id="694ec" class="javax.swing.JCheckBox" binding="thursday1030">
+        <constraints>
+          <grid row="16" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="10:30 - 11:00"/>
+        </properties>
+      </component>
+      <component id="62882" class="javax.swing.JCheckBox" binding="friday1030">
+        <constraints>
+          <grid row="16" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="10:30 - 11:00"/>
+        </properties>
+      </component>
+      <component id="5962e" class="javax.swing.JCheckBox" binding="tuesday1100">
+        <constraints>
+          <grid row="17" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="11:00 - 11:30"/>
+        </properties>
+      </component>
+      <component id="3da0f" class="javax.swing.JCheckBox" binding="wednesday1100">
+        <constraints>
+          <grid row="17" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="11:00 - 11:30"/>
+        </properties>
+      </component>
+      <component id="1d1be" class="javax.swing.JCheckBox" binding="thursday1100">
+        <constraints>
+          <grid row="17" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="11:00 - 11:30"/>
+        </properties>
+      </component>
+      <component id="c0832" class="javax.swing.JCheckBox" binding="friday1100">
+        <constraints>
+          <grid row="17" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="11:00 - 11:30"/>
+        </properties>
+      </component>
+      <component id="1921d" class="javax.swing.JCheckBox" binding="tuesday1130">
+        <constraints>
+          <grid row="18" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="11:30 - 12:00"/>
+        </properties>
+      </component>
+      <component id="64319" class="javax.swing.JCheckBox" binding="wednesday1130">
+        <constraints>
+          <grid row="18" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="11:30 - 12:00"/>
+        </properties>
+      </component>
+      <component id="6ac47" class="javax.swing.JCheckBox" binding="thursday1130">
+        <constraints>
+          <grid row="18" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="11:30 - 12:00"/>
+        </properties>
+      </component>
+      <component id="d880b" class="javax.swing.JCheckBox" binding="friday1130">
+        <constraints>
+          <grid row="18" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="11:30 - 12:00"/>
+        </properties>
+      </component>
+      <component id="82540" class="javax.swing.JCheckBox" binding="monday1200">
+        <constraints>
+          <grid row="19" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="12:00 - 12:30"/>
+        </properties>
+      </component>
+      <component id="32511" class="javax.swing.JCheckBox" binding="monday1230">
+        <constraints>
+          <grid row="20" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="12:30 - 13:00"/>
+        </properties>
+      </component>
+      <component id="615a7" class="javax.swing.JCheckBox" binding="monday1300">
+        <constraints>
+          <grid row="21" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="13:00 - 13:30"/>
+        </properties>
+      </component>
+      <component id="328cd" class="javax.swing.JCheckBox" binding="monday1330">
+        <constraints>
+          <grid row="22" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="13:30 - 14:00"/>
+        </properties>
+      </component>
+      <component id="46a34" class="javax.swing.JCheckBox" binding="tuesday1200">
+        <constraints>
+          <grid row="19" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="12:00 - 12:30"/>
+        </properties>
+      </component>
+      <component id="5a29a" class="javax.swing.JCheckBox" binding="wednesday1200">
+        <constraints>
+          <grid row="19" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="12:00 - 12:30"/>
+        </properties>
+      </component>
+      <component id="44e31" class="javax.swing.JCheckBox" binding="thursday1200">
+        <constraints>
+          <grid row="19" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="12:00 - 12:30"/>
+        </properties>
+      </component>
+      <component id="e2cb2" class="javax.swing.JCheckBox" binding="friday1200">
+        <constraints>
+          <grid row="19" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="12:00 - 12:30"/>
+        </properties>
+      </component>
+      <component id="82b8e" class="javax.swing.JCheckBox" binding="tuesday1230">
+        <constraints>
+          <grid row="20" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="12:30 - 13:00"/>
+        </properties>
+      </component>
+      <component id="eaeb1" class="javax.swing.JCheckBox" binding="wednesday1230">
+        <constraints>
+          <grid row="20" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="12:30 - 13:00"/>
+        </properties>
+      </component>
+      <component id="b173" class="javax.swing.JCheckBox" binding="thursday1230">
+        <constraints>
+          <grid row="20" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="12:30 - 13:00"/>
+        </properties>
+      </component>
+      <component id="38927" class="javax.swing.JCheckBox" binding="friday1230">
+        <constraints>
+          <grid row="20" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="12:30 - 13:00"/>
+        </properties>
+      </component>
+      <component id="f0e72" class="javax.swing.JCheckBox" binding="tuesday1300">
+        <constraints>
+          <grid row="21" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="13:00 - 13:30"/>
+        </properties>
+      </component>
+      <component id="76f8a" class="javax.swing.JCheckBox" binding="wednesday1300">
+        <constraints>
+          <grid row="21" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="13:00 - 13:30"/>
+        </properties>
+      </component>
+      <component id="a6f6c" class="javax.swing.JCheckBox" binding="thursday1300">
+        <constraints>
+          <grid row="21" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="13:00 - 13:30"/>
+        </properties>
+      </component>
+      <component id="70f8d" class="javax.swing.JCheckBox" binding="friday1300">
+        <constraints>
+          <grid row="21" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="13:00 - 13:30"/>
+        </properties>
+      </component>
+      <component id="c61d0" class="javax.swing.JCheckBox" binding="tuesday1330">
+        <constraints>
+          <grid row="22" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="13:30 - 14:00"/>
+        </properties>
+      </component>
+      <component id="ad818" class="javax.swing.JCheckBox" binding="wednesday1330">
+        <constraints>
+          <grid row="22" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="13:30 - 14:00"/>
+        </properties>
+      </component>
+      <component id="a1993" class="javax.swing.JCheckBox" binding="thursday1330">
+        <constraints>
+          <grid row="22" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="13:30 - 14:00"/>
+        </properties>
+      </component>
+      <component id="8f38b" class="javax.swing.JCheckBox" binding="friday1330">
+        <constraints>
+          <grid row="22" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="13:30 - 14:00"/>
+        </properties>
+      </component>
+      <component id="9b814" class="javax.swing.JCheckBox" binding="monday1400">
+        <constraints>
+          <grid row="23" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="14:00 - 14:30"/>
+        </properties>
+      </component>
+      <component id="1b632" class="javax.swing.JCheckBox" binding="monday1430">
+        <constraints>
+          <grid row="24" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="14:30 - 15:00"/>
+        </properties>
+      </component>
+      <component id="83cdd" class="javax.swing.JCheckBox" binding="monday1500">
+        <constraints>
+          <grid row="25" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="15:00 - 15:30"/>
+        </properties>
+      </component>
+      <component id="cd9d6" class="javax.swing.JCheckBox" binding="monday1530">
+        <constraints>
+          <grid row="26" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="15:30 - 16:00"/>
+        </properties>
+      </component>
+      <component id="91450" class="javax.swing.JCheckBox" binding="tuesday1400">
+        <constraints>
+          <grid row="23" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="14:00 - 14:30"/>
+        </properties>
+      </component>
+      <component id="fc143" class="javax.swing.JCheckBox" binding="wednesday1400">
+        <constraints>
+          <grid row="23" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="14:00 - 14:30"/>
+        </properties>
+      </component>
+      <component id="2e6ac" class="javax.swing.JCheckBox" binding="thursday1400">
+        <constraints>
+          <grid row="23" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="14:00 - 14:30"/>
+        </properties>
+      </component>
+      <component id="2e5b1" class="javax.swing.JCheckBox" binding="friday1400">
+        <constraints>
+          <grid row="23" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="14:00 - 14:30"/>
+        </properties>
+      </component>
+      <component id="508ea" class="javax.swing.JCheckBox" binding="tuesday1430">
+        <constraints>
+          <grid row="24" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="14:30 - 15:00"/>
+        </properties>
+      </component>
+      <component id="2b275" class="javax.swing.JCheckBox" binding="wednesday1430">
+        <constraints>
+          <grid row="24" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="14:30 - 15:00"/>
+        </properties>
+      </component>
+      <component id="6f2af" class="javax.swing.JCheckBox" binding="thursday1430">
+        <constraints>
+          <grid row="24" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="14:30 - 15:00"/>
+        </properties>
+      </component>
+      <component id="bb5e2" class="javax.swing.JCheckBox" binding="friday1430">
+        <constraints>
+          <grid row="24" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="14:30 - 15:00"/>
+        </properties>
+      </component>
+      <component id="4f81f" class="javax.swing.JCheckBox" binding="tuesday1500">
+        <constraints>
+          <grid row="25" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="15:00 - 15:30"/>
+        </properties>
+      </component>
+      <component id="944b4" class="javax.swing.JCheckBox" binding="wednesday1500">
+        <constraints>
+          <grid row="25" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="15:00 - 15:30"/>
+        </properties>
+      </component>
+      <component id="8662a" class="javax.swing.JCheckBox" binding="thursday1500">
+        <constraints>
+          <grid row="25" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="15:00 - 15:30"/>
+        </properties>
+      </component>
+      <component id="b9be0" class="javax.swing.JCheckBox" binding="friday1500">
+        <constraints>
+          <grid row="25" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="15:00 - 15:30"/>
+        </properties>
+      </component>
+      <component id="43ce1" class="javax.swing.JCheckBox" binding="tuesday1530">
+        <constraints>
+          <grid row="26" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="15:30 - 16:00"/>
+        </properties>
+      </component>
+      <component id="92d35" class="javax.swing.JCheckBox" binding="wednesday1530">
+        <constraints>
+          <grid row="26" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="15:30 - 16:00"/>
+        </properties>
+      </component>
+      <component id="b13eb" class="javax.swing.JCheckBox" binding="thursday1530">
+        <constraints>
+          <grid row="26" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="15:30 - 16:00"/>
+        </properties>
+      </component>
+      <component id="10b6a" class="javax.swing.JCheckBox" binding="friday1530">
+        <constraints>
+          <grid row="26" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="15:30 - 16:00"/>
+        </properties>
+      </component>
+      <component id="42dd4" class="javax.swing.JTextField" binding="courseName">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="200" height="30"/>
+            <preferred-size width="100" height="30"/>
+            <maximum-size width="200" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="54515" class="javax.swing.JLabel" binding="welcome">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Welcome to TA Assign Application"/>
+        </properties>
+      </component>
+      <component id="73c8f" class="javax.swing.JButton" binding="saveButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <text value="Save"/>
+        </properties>
+      </component>
+      <component id="545ee" class="javax.swing.JCheckBox" binding="monday1600">
+        <constraints>
+          <grid row="27" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="16:00 - 16:30"/>
+        </properties>
+      </component>
+      <component id="5861f" class="javax.swing.JCheckBox" binding="monday1630">
+        <constraints>
+          <grid row="28" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="16:30 - 17:00"/>
+        </properties>
+      </component>
+      <component id="16065" class="javax.swing.JCheckBox" binding="monday1700">
+        <constraints>
+          <grid row="29" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="17:00 - 17:30"/>
+        </properties>
+      </component>
+      <component id="6dd3e" class="javax.swing.JCheckBox" binding="monday1730">
+        <constraints>
+          <grid row="30" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="17:30 - 18:00"/>
+        </properties>
+      </component>
+      <component id="e5152" class="javax.swing.JCheckBox" binding="tuesday1600">
+        <constraints>
+          <grid row="27" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="16:00 - 16:30"/>
+        </properties>
+      </component>
+      <component id="df180" class="javax.swing.JCheckBox" binding="wednesday1600">
+        <constraints>
+          <grid row="27" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="16:00 - 16:30"/>
+        </properties>
+      </component>
+      <component id="22480" class="javax.swing.JCheckBox" binding="thursday1600">
+        <constraints>
+          <grid row="27" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="16:00 - 16:30"/>
+        </properties>
+      </component>
+      <component id="c98bb" class="javax.swing.JCheckBox" binding="friday1600">
+        <constraints>
+          <grid row="27" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="16:00 - 16:30"/>
+        </properties>
+      </component>
+      <component id="11ebf" class="javax.swing.JCheckBox" binding="tuesday1630">
+        <constraints>
+          <grid row="28" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="16:30 - 17:00"/>
+        </properties>
+      </component>
+      <component id="58fdf" class="javax.swing.JCheckBox" binding="wednesday1630">
+        <constraints>
+          <grid row="28" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="16:30 - 17:00"/>
+        </properties>
+      </component>
+      <component id="ab2dd" class="javax.swing.JCheckBox" binding="thursday1630">
+        <constraints>
+          <grid row="28" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="16:30 - 17:00"/>
+        </properties>
+      </component>
+      <component id="40e1a" class="javax.swing.JCheckBox" binding="friday1630">
+        <constraints>
+          <grid row="28" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="16:30 - 17:00"/>
+        </properties>
+      </component>
+      <component id="9d014" class="javax.swing.JCheckBox" binding="tuesday1700">
+        <constraints>
+          <grid row="29" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="17:00 - 17:30"/>
+        </properties>
+      </component>
+      <component id="1d8f5" class="javax.swing.JCheckBox" binding="wednesday1700">
+        <constraints>
+          <grid row="29" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="17:00 - 17:30"/>
+        </properties>
+      </component>
+      <component id="14756" class="javax.swing.JCheckBox" binding="thursday1700">
+        <constraints>
+          <grid row="29" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="17:00 - 17:30"/>
+        </properties>
+      </component>
+      <component id="50a8e" class="javax.swing.JCheckBox" binding="friday1700">
+        <constraints>
+          <grid row="29" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="17:00 - 17:30"/>
+        </properties>
+      </component>
+      <component id="4bb53" class="javax.swing.JCheckBox" binding="tuesday1730">
+        <constraints>
+          <grid row="30" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="17:30 - 18:00"/>
+        </properties>
+      </component>
+      <component id="191db" class="javax.swing.JCheckBox" binding="wednesday1730">
+        <constraints>
+          <grid row="30" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="17:30 - 18:00"/>
+        </properties>
+      </component>
+      <component id="6b56b" class="javax.swing.JCheckBox" binding="thursday1730">
+        <constraints>
+          <grid row="30" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="17:30 - 18:00"/>
+        </properties>
+      </component>
+      <component id="d8084" class="javax.swing.JCheckBox" binding="friday1730">
+        <constraints>
+          <grid row="30" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="40" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="17:30 - 18:00"/>
+        </properties>
+      </component>
+      <component id="1ba95" class="javax.swing.JButton" binding="clearButton">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <maximum-size width="80" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Clear"/>
+        </properties>
+      </component>
+      <component id="86f26" class="javax.swing.JButton" binding="assign">
+        <constraints>
+          <grid row="31" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="assign"/>
+        </properties>
+      </component>
+      <component id="c98e7" class="javax.swing.JButton" binding="addCourseComponentButton">
+        <constraints>
+          <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Add"/>
+        </properties>
+      </component>
+      <component id="f817d" class="javax.swing.JButton" binding="addTAButton">
+        <constraints>
+          <grid row="8" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Add"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="courseComponentButtons">
+      <member id="7f2e9"/>
+      <member id="7f2e9"/>
+      <member id="9320a"/>
+      <member id="68aec"/>
+    </group>
+  </buttonGroups>
+</form>
