@@ -2,13 +2,18 @@
 
 ## Assigning TA based on their preferred work and schedule
 
-This is a program that helps assign teaching assistants for a course. Each course will have its own components like 
-**lecture**, **lab**, and **tutorial**. Each TA will give their *schedule*，*maximum work time*.
-The program will help assign TAs to suitable time and duties.
+This is a program helps assign Teaching Assistants given the course duties and TA’s personal schedule. The course
+includes schedule for **lecture**, **lab**, and **tutorial**. Teaching Assistants need to input their personal
+*schedule*，*maximum work time*.
+  
+I am currently working on adding function to help Teaching Assistants input their personal schedule through website.
 
 This program can be easily changed and be further used to assign employees to their suitable duties according to
-their schedule and maximum working time. Each employee can be assigned to multiple duties as long as they are available
-at that time.
+their personal schedule and maximum working time.
+
+There are several .json file in the **test** folder for you to test the functionality of the program.
+
+I appreciate any of your feedback.
 
 
 ## User Stories

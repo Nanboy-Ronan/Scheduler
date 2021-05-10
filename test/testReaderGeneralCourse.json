@@ -1,0 +1,240 @@
+{
+  "courseDuty": {
+    "labs": [
+      {
+        "schedule": {
+          "tuesday": {
+            "halfNine": false,
+            "nineHalf": false,
+            "halfTen": false,
+            "halfEleven": false,
+            "eightHalf": false,
+            "tenHalf": false,
+            "elevenHalf": false,
+            "halfTwelve": false
+          },
+          "wednesday": {
+            "halfNine": false,
+            "nineHalf": false,
+            "halfTen": false,
+            "halfEleven": false,
+            "eightHalf": false,
+            "tenHalf": false,
+            "elevenHalf": false,
+            "halfTwelve": false
+          },
+          "thursday": {
+            "halfNine": false,
+            "nineHalf": false,
+            "halfTen": false,
+            "halfEleven": false,
+            "eightHalf": false,
+            "tenHalf": false,
+            "elevenHalf": false,
+            "halfTwelve": false
+          },
+          "friday": {
+            "halfNine": false,
+            "nineHalf": false,
+            "halfTen": false,
+            "halfEleven": false,
+            "eightHalf": false,
+            "tenHalf": false,
+            "elevenHalf": false,
+            "halfTwelve": false
+          },
+          "monday": {
+            "halfNine": false,
+            "nineHalf": false,
+            "halfTen": false,
+            "halfEleven": false,
+            "eightHalf": false,
+            "tenHalf": false,
+            "elevenHalf": false,
+            "halfTwelve": false
+          }
+        },
+        "numTA": 0,
+        "name": "lab",
+        "section": "L1A"
+      }
+    ],
+    "tutorials": [
+      {
+        "schedule": {
+          "tuesday": {
+            "halfNine": false,
+            "nineHalf": false,
+            "halfTen": false,
+            "halfEleven": false,
+            "eightHalf": false,
+            "tenHalf": false,
+            "elevenHalf": false,
+            "halfTwelve": false
+          },
+          "wednesday": {
+            "halfNine": false,
+            "nineHalf": false,
+            "halfTen": false,
+            "halfEleven": false,
+            "eightHalf": false,
+            "tenHalf": false,
+            "elevenHalf": false,
+            "halfTwelve": false
+          },
+          "thursday": {
+            "halfNine": false,
+            "nineHalf": false,
+            "halfTen": false,
+            "halfEleven": false,
+            "eightHalf": false,
+            "tenHalf": false,
+            "elevenHalf": false,
+            "halfTwelve": false
+          },
+          "friday": {
+            "halfNine": false,
+            "nineHalf": false,
+            "halfTen": false,
+            "halfEleven": false,
+            "eightHalf": false,
+            "tenHalf": false,
+            "elevenHalf": false,
+            "halfTwelve": false
+          },
+          "monday": {
+            "halfNine": false,
+            "nineHalf": false,
+            "halfTen": false,
+            "halfEleven": false,
+            "eightHalf": false,
+            "tenHalf": false,
+            "elevenHalf": false,
+            "halfTwelve": false
+          }
+        },
+        "numTA": 0,
+        "name": "tutorial",
+        "section": "T1A"
+      }
+    ],
+    "lectures": [
+      {
+        "schedule": {
+          "tuesday": {
+            "halfNine": false,
+            "nineHalf": false,
+            "halfTen": false,
+            "halfEleven": false,
+            "eightHalf": false,
+            "tenHalf": false,
+            "elevenHalf": false,
+            "halfTwelve": false
+          },
+          "wednesday": {
+            "halfNine": false,
+            "nineHalf": false,
+            "halfTen": false,
+            "halfEleven": false,
+            "eightHalf": false,
+            "tenHalf": false,
+            "elevenHalf": false,
+            "halfTwelve": false
+          },
+          "thursday": {
+            "halfNine": false,
+            "nineHalf": false,
+            "halfTen": false,
+            "halfEleven": false,
+            "eightHalf": false,
+            "tenHalf": false,
+            "elevenHalf": false,
+            "halfTwelve": false
+          },
+          "friday": {
+            "halfNine": false,
+            "nineHalf": false,
+            "halfTen": false,
+            "halfEleven": false,
+            "eightHalf": false,
+            "tenHalf": false,
+            "elevenHalf": false,
+            "halfTwelve": false
+          },
+          "monday": {
+            "halfNine": false,
+            "nineHalf": false,
+            "halfTen": false,
+            "halfEleven": false,
+            "eightHalf": false,
+            "tenHalf": false,
+            "elevenHalf": false,
+            "halfTwelve": false
+          }
+        },
+        "numTA": 0,
+        "name": "lecture",
+        "section": "101"
+      }
+    ]
+  },
+  "course": "cpsc 210",
+  "TA": [
+    {
+      "Max Working Time": 12,
+      "schedule": {
+        "tuesday": {
+          "halfNine": false,
+          "nineHalf": false,
+          "halfTen": false,
+          "halfEleven": false,
+          "eightHalf": false,
+          "tenHalf": false,
+          "elevenHalf": false,
+          "halfTwelve": false
+        },
+        "wednesday": {
+          "halfNine": false,
+          "nineHalf": false,
+          "halfTen": false,
+          "halfEleven": false,
+          "eightHalf": false,
+          "tenHalf": false,
+          "elevenHalf": false,
+          "halfTwelve": false
+        },
+        "thursday": {
+          "halfNine": false,
+          "nineHalf": false,
+          "halfTen": false,
+          "halfEleven": false,
+          "eightHalf": false,
+          "tenHalf": false,
+          "elevenHalf": false,
+          "halfTwelve": false
+        },
+        "friday": {
+          "halfNine": false,
+          "nineHalf": false,
+          "halfTen": false,
+          "halfEleven": false,
+          "eightHalf": false,
+          "tenHalf": false,
+          "elevenHalf": false,
+          "halfTwelve": false
+        },
+        "monday": {
+          "halfNine": false,
+          "nineHalf": false,
+          "halfTen": false,
+          "halfEleven": false,
+          "eightHalf": false,
+          "tenHalf": false,
+          "elevenHalf": false,
+          "halfTwelve": false
+        }
+      },
+      "name": "Mike"
+    }
+  ]
+}
